@@ -40,7 +40,7 @@ document.querySelectorAll('[data-filter]').forEach(el => el.addEventListener('cl
 }));
 document.querySelector('#open-art').addEventListener('click', () => {
   content.replaceChildren();
-  const img = document.createElement('img'); img.src = 'assets/garden.svg'; img.alt = '어두운 바닷속에 피어난 파스텔 꽃들';
-  const text = document.createElement('p'); text.textContent = '바닷속에 피는 꽃 · 사이트를 위해 제작한 SVG 일러스트';
+  const img = document.createElement('img'); img.src = 'assets/underwater-garden.png'; img.alt = '어두운 바닷속에 피어난 파스텔 꽃들';
+  const text = document.createElement('p'); text.textContent = '바닷속에 피는 꽃 · 사이트를 위해 제작한 AI 생성 이미지';
   content.append(img, text); openDialog();
 });

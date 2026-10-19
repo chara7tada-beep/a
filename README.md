@@ -14,7 +14,9 @@ python3 -m http.server 3000 --bind 0.0.0.0
 - `index.html`: 페이지 구성 및 임시 프로필
 - `style.css`: 디자인 및 모바일 대응
 - `script.js`: 메뉴, 글 분류, 글 읽기와 이미지 확대
-- `assets/garden.svg`: 직접 제작한 수중 화원 일러스트
+- `assets/underwater-garden.png`: AI로 생성한 수중 화원 배경
+- `assets/filigree.svg`: 직접 제작한 은빛 덩굴과 리본 장식
+- `assets/garden.svg`: 초기 시안의 SVG 화원
 
 프로필 A/B와 예시 기록은 실제 캐릭터 설정으로 교체하세요. 글 내용은 `script.js`의 `entries`에 있습니다. 갤러리와 글은 파일을 편집하여 관리하는 구성으로, 업로드나 관리자 기능은 없습니다.
 
